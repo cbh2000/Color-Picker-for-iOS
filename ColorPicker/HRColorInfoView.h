@@ -33,5 +33,6 @@
 @end
 
 @interface HRColorInfoView : UIView <HRColorInfoView>
+- (void)setColor:(UIColor *)color;
 
 @end

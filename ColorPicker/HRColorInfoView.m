@@ -88,6 +88,7 @@ const CGFloat kHRColorInfoViewCornerRadius = 3.;
             CGRectGetHeight(self.frame) - kHRColorInfoViewLabelHeight,
             CGRectGetWidth(self.frame),
             kHRColorInfoViewLabelHeight);
+    [self setColor:_color];
 
     _borderLayer.frame = (CGRect) {.origin = CGPointZero, .size = self.frame.size};
 }

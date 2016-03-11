@@ -38,6 +38,5 @@ typedef struct HRColorPickerStyle HRColorPickerStyle;
 @property (nonatomic, strong) UIColor *color;
 @property (nonatomic, strong) IBOutlet UIView <HRColorInfoView> *colorInfoView;
 @property (nonatomic, strong) IBOutlet UIControl <HRColorMapView> *colorMapView;
-@property (nonatomic, strong) IBOutlet UIControl <HRBrightnessSlider> *brightnessSlider;
 
 @end
